@@ -6,7 +6,7 @@ The device combines multi-sensor physiological data collection (capacitive fluid
 
 ---
 
-## 🚀 Key Features & Hardware Specifications
+## Key Features & Hardware Specifications
 
 * **Microcontroller:** ESP32 Board
 * **Pulse Oximetry Sensor:** MAX30102 / MAX30105 (I2C interface) for continuous $\text{SpO}_2$ and PPG monitoring
@@ -17,7 +17,7 @@ The device combines multi-sensor physiological data collection (capacitive fluid
 
 ---
 
-## 🏗 Finite State Machine (FSM) Architecture
+## Finite State Machine (FSM) Architecture
 
 The firmware utilizes a robust 4-state state machine to prevent false alarms caused by patient movement or temporary sensor shifts:
 
